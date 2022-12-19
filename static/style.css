@@ -36,7 +36,6 @@ body{
 }
 
 #secTabla{
-    background-color: white;
     text-align: center;
     border-top: solid 0.1rem;
     border-bottom: solid 0.1rem;
@@ -49,6 +48,7 @@ body{
 
 #tabla{
     border-collapse: collapse;
+    margin-bottom: 1rem;
 }
 
 #headTabla{
@@ -91,14 +91,12 @@ span{
     border: solid 0.1rem green;
     color: white;
     border-radius: 0.5rem;
-    margin-top: 1rem;
     padding: 0.5rem 1.5rem 0.5rem 1.5rem;
 }
 
 .agregar:hover{
     background-color: darkgreen;
     border: solid 0.1rem darkgreen;
-
 }
 
 /* Modal */
@@ -111,7 +109,6 @@ span{
 }
 
 #secFormulario{
-    background-color: white;
     text-align: center;
     border-top: solid 0.1rem;
     border-bottom: solid 0.1rem;
@@ -120,4 +117,17 @@ span{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+#volver{
+    background-color: gray;
+    border: solid 0.1rem gray;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+}
+
+#volver:hover{
+    background-color: darkgray;
+    border: solid 0.1rem darkgray;
 }
