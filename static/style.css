@@ -1,3 +1,5 @@
+        /* Alicia Ruiznavarro Ambrona */
+
 /* Tipografia */
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
@@ -15,7 +17,7 @@ body{
 
 #contenedor{
     background-color: white;
-    margin: 11vw 20vw 11vw 20vw;
+    margin: 7vw 20vw 10vw 20vw;
     border: solid 0.1rem;
     border-radius: 1rem;
 
@@ -100,10 +102,14 @@ span{
 }
 
 /* Modal */
+.modal {
+    display: none;
+  }
+
 
 #contenedor2{
     background-color: white;
-    margin: 20vw 35vw 20vw 35vw;
+    margin: 10vw 35vw 10vw 35vw;
     border: solid 0.1rem;
     border-radius: 1rem;
 }
@@ -119,12 +125,18 @@ span{
     flex-direction: column;
 }
 
+.secciones{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 #volver{
     background-color: gray;
     border: solid 0.1rem gray;
     color: white;
     border-radius: 0.5rem;
     padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    margin: 0.5rem 0rem 0.5rem 0rem;
 }
 
 #volver:hover{

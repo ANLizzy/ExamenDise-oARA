@@ -90,7 +90,7 @@
                     </tr>
                 </table>
 
-                <button class="agregar">Añadir cliente</button>
+                <button id="modalbtn" class="agregar">Añadir cliente</button>
 
             </section>
             <footer id="franjaF" class="franjas">
@@ -98,37 +98,50 @@
             </footer>
         </div>
     </div>
-    
-    <div id="contenedor2">
+
+    <div id="contenedor2" class="modal">
         <header id="franjaH" class="franjas">
             <h1 class="titulos">Nuevo cliente</h1>
         </header>
         <section id="secFormulario">
             <form action="">
-                <label for="">Nombre:</label>
-                <input type="text" name="" id="">
+                <div class="secciones">
+                    <label for="">Nombre:</label>
+                    <input type="text" name="" id="">
+                </div>
 
-                <label for="">Sexo:</label>
-                <input type="radio" name="sexo" id="">
-                <label for="">Hombre:</label>
-                <input type="radio" name="sexo" id="">
-                <label for="">Mujer</label>
+                <div class="secciones">
+                    <label for="">Sexo:</label>
+                    <input type="radio" name="sexo" id="">
+                    <label for="">Hombre:</label>
+                    <input type="radio" name="sexo" id="">
+                    <label for="">Mujer</label>
+                </div>
 
-                <label for="">Edad</label>
-                <input type="number" name="" id="">
+                <div class="secciones">
+                    <label for="">Edad</label>
+                    <input type="number" name="" id="">
+                </div>
 
-                <label for="">Altura (cm):</label>
-                <input type="number" name="" id="">
+                <div class="secciones">
+                    <label for="">Altura (cm):</label>
+                    <input type="number" name="" id="">
+                </div>
 
-                <label for="">Peso (kg):</label>
-                <input type="number" name="" id="">
+                <div class="secciones">
+                    <label for="">Peso (kg):</label>
+                    <input type="number" name="" id="">
+                </div>
 
-                <label for="">Actividad física:</label>
-                <select name="" id="">
-                    <option>Suave o sedentaria</option>
-                    <option>Moderada</option>
-                    <option>Alta</option>
-                </select>
+                <div class="secciones">
+                    <label for="">Actividad física:</label>
+                    <select name="" id="">
+                        <option>Suave o sedentaria</option>
+                        <option>Moderada</option>
+                        <option>Alta</option>
+                    </select>
+                </div>
+
             </form>
         </section>
         <footer id="franjaF" class="franjas">
