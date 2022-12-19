@@ -13,9 +13,10 @@ body{
 
 #contenedor{
     background-color: white;
-    margin: 10vw 20vw 17vw 20vw;
+    margin: 11vw 20vw 11vw 20vw;
     border: solid 0.1rem;
     border-radius: 1rem;
+
 }
 
 .franjas{
@@ -38,6 +39,10 @@ body{
     border-top: solid 0.1rem;
     border-bottom: solid 0.1rem;
     padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #tabla{
@@ -53,11 +58,15 @@ td, th{
     padding: 0.5rem;
 }
 
+tr:hover{
+    background-color: rgba(239,156,1,0.8);
+}
+
 span{
     border: solid;
     border-radius: 0.2rem;
     color: white;
-    padding: 0rem 0.4rem 0rem 0.4rem;
+    padding: 0.1rem 0.4rem 0.1rem 0.4rem;
 }
 
 .hombre{
@@ -75,5 +84,18 @@ span{
     background-color: gray;
 }
 
+.agregar{
+    background-color: green;
+    border: solid 0.1rem green;
+    color: white;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+}
 
+.agregar:hover{
+    background-color: darkgreen;
+    border: solid 0.1rem darkgreen;
+
+}
 
