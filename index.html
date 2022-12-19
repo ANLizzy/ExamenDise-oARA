@@ -8,61 +8,72 @@
 
     <title>Alicia Ruinavarro Ambrona</title>
 
-    <style src="static/style.css"></style>
+    <!-- Tipografia -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/style.css">
 </head>
 
 <body>
-
-    <div>
-        <header> Aplicacion de dietas </header>
-        <section>
-            <table>
-                <table id="data_table">
-                    <tr>
-                      <th>Nombre</th>
-                      <th>Sexo</th>
-                      <th>Edad</th>
-                      <th>Altura</th>
-                      <th>Peso</th>
-                      <th>Actividad</th>
-                      <th>IM Basal</th>
-                      <th>Calorias necesarias</th>
+    <div id="fondo">
+        <div id="contenedor">
+            <header id="franjaH" class="franjas">
+                <h1 class="titulos">Aplicacion de dietas</h1>
+            </header>
+            <section id="secTabla">
+                <table id="tabla">
+                    <tr id="headTabla">
+                        <th class="titulos">Nombre</th>
+                        <th class="titulos">Sexo</th>
+                        <th class="titulos">Edad</th>
+                        <th class="titulos">Altura</th>
+                        <th class="titulos">Peso</th>
+                        <th class="titulos">Actividad</th>
+                        <th class="titulos">IM Basal</th>
+                        <th class="titulos">Calorias necesarias</th>
                     </tr>
 
                     <tr>
                         <td>Francisco Romero</td>
-                        <td>Hombre</td>
+                        <td><span class="hombre">Hombre</span></td>
                         <td>31</td>
                         <td>198</td>
                         <td>89</td>
-                        <td>Moderada</td>
+                        <td><span class="actividad">Moderada</span></td>
                         <td>1427 kCal</td>
                         <td>1712 kCal</td>
                     </tr>
-              
+
                     <tr>
                         <td>Jose Antonio Lara</td>
-                        <td>Hombre</td>
+                        <td><span class="hombre">Hombre</span></td>
                         <td>46</td>
                         <td>187</td>
                         <td>85</td>
-                        <td>Moderada</td>
+                        <td><span class="actividad">Moderada</span></td>
                         <td>1333 kCal</td>
                         <td>1435 kCal</td>
                     </tr>
                     <tr>
                         <td>Jeniffer Lopez</td>
-                        <td>Mujer</td>
+                        <td><span class="mujer">mujer</span></td>
                         <td>45</td>
                         <td>167</td>
                         <td>56</td>
-                        <td>Alta</td>
+                        <td><span class="actividad">Alta</span></td>
                         <td>1256 kCal</td>
                         <td>1943 kCal</td>
                     </tr>
-            </table>
-        </section>
-        <footer> Alicia Ruiznavarro Ambrona &copy;2022</footer>
+                </table>
+
+                <button class="agregar">Añadir cliente</button>
+
+            </section>
+            <footer id="franjaF" class="franjas">
+                <h5 class="titulos">Alicia Ruiznavarro Ambrona &copy;2022</h5>
+            </footer>
+        </div>
     </div>
 
     <script src="static/app.js"></script>
